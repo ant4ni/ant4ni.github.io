@@ -1,35 +1,28 @@
 h1 { 
     font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace; 
-    font-size: 100px; 
+    font-size: 400%; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
-    line-height: 26.4px; 
+    line-height: 20%; /*26.4px;*/ 
     
     text-align: center;
     color:green;
-    margin-top:100px;
-    height:200px;
+    margin-top:5%;
+    height:auto;
     
     } 
-h3 { 
-    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace; 
-    font-size: 14px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 15.4px; } 
 p { 
     font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace; 
-    font-size: 24px; 
+    font-size: 150%; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
-    line-height: 30px;
+    line-height: 100%;
 
     color:#90EE90;
-    margin-left:200px;    
-    
+    margin-left:15%;    
+    margin-top:5% 
     } 
 
 body{
@@ -37,14 +30,14 @@ body{
     }
  a {
       font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monos    pace;
-      font-size: 24px;
+      font-size: 100%;
       font-style: normal;
       font-variant: normal;
       font-weight: 400;
-      line-height: 30px;
+      line-height: 100%;
   
       color:#90EE90;
-      margin-left:200px;
-  
+      /*margin-left:%;*/
+      
       }
 
