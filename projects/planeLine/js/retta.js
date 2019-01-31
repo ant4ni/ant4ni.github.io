@@ -39,20 +39,20 @@ function genLine(ctx,height,width,equation,Output){
     n=Number(n);
     n1=Number(n1);
     //alert("N="+n+" N1="+n1+" Segno="+segno);
-    for(i=x=-Math.floor(height/2);i<height;i++,x++){
+    for(i=-Math.floor(height/2);i<height;i+=0.1){
             //if(segno == 0)fillRect(i,n*x+n1);
             if(segno == 1){
-                y = n*x;
+                y = n*i; //x
                 y=y-Number(n1);
                 ctx.fillRect(Math.floor(width/2)-i,Math.floor(height/2)-(y*-1),2,2);
-                Output.innerHTML+="Y="+y+" N="+n+" N1="+n1+"<br>";
+                //Output.innerHTML+="Y="+y+" N="+n+" N1="+n1+"<br>";
             }
             else{
                 y = n*i
                 y= y + Number(n1);
                 ctx.fillRect(Math.floor(width/2)-i,Math.floor(height/2)-(y*-1),2,2);
-                Output.innerHTML+="Y="+y+"N="+n+"N1"+n1+"<br>";
+                //Output.innerHTML+="Y="+y+"N="+n+"N1"+n1+"<br>";
             }
     }
-    Output.innerHTML+="N="+n+" N1="+n1;
+    //Output.innerHTML+="N="+n+" N1="+n1;
 }
